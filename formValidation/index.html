@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     <link rel="stylesheet" href="index.css">
+     
+</head>
+<body>
+    <div class="container">
+    <h1 class="display-3 " id="h1">Registration form</h1>
+    <form class="row" id="registration">
+        <div class="col-md-3">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="name" value="" autocomplete="off" >
+          <div class="valid-feedback" id="nameValid">
+            Looks good!
+          </div>
+          <div class="invalid-feedback" id="nameInValid">please enter valid first name</div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="lastName" required value="">
+          <div class="valid-feedback" id="lastNameValid">
+            Looks good!
+          </div>
+          <div class="invalid-feedback" id="lastNameInValid">please enter valid Last name</div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustomUsername" class="form-label">Email</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="emaill" aria-describedby="inputGroupPrepend" >
+            <div class="valid-feedback" id="emailValid">Looks good</div>
+            <div class="invalid-feedback" id="emailInValid">
+              Please enter a valid email address.
+            </div>
+         
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">Password</label>
+          
+          <input  type="text" class="form-control" id="password" required >
+          <div class="valid-feedback" id="passwordValid">Looks good</div>
+          <div class="invalid-feedback" id="passwordInValid">
+            Please provide a valid Password.
+          </div>
+          
+        </div>
+        
+        <div class="col-md-6">
+          <label for="validationCustom05" class="form-label">Confirm Password</label>
+          <input type="text" class="form-control" id="confirmPassword" required>
+          <div class="valid-feedback" id="confirmPasswordValid">Looks good</div>
+          <div class="invalid-feedback" id="confirmPasswordInValid">
+            Password and confirm password don't match.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="check" required >
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="valid-feedback" id="checkValid">Looks good</div>
+            <div class="invalid-feedback" id="checkInValid">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-13" style="text-align: centre;">
+          <button id="bt" class="btn btn-dark" type="button" onclick="checkd()">Submit form</button>
+        </div>
+      </form>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+       
+    </body>
+ <script src="index.js"></script>
+</html>

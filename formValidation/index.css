@@ -1,0 +1,48 @@
+
+
+.container{
+    margin-top: 40px;
+
+}
+.row{
+    width: 800px;
+    margin: auto;
+}
+.valid-feedback{
+    display: block;
+}
+.invalid-feedback{
+    display: block;
+}
+.col-13{
+    text-align: center;
+}
+.col-md-3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.valid-feedback{
+    display: none;
+}
+.invalid-feedback{
+    display: none;
+}
+.col-md-6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#h1{
+    
+    color: white;
+    background-color: black;
+    width: 800px;
+    text-align: center;
+    margin-left: 158px;
+    font-style: initial;
+    font-size: 60px;
+}
+#registration{
+   background-color: antiquewhite;
+   margin-top: -5px;
+   
+}
